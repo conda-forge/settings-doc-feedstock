@@ -1,5 +1,5 @@
 {% set name = "settings-doc" %}
-{% set version = "4.3.1" %}
+{% set version = "4.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/settings_doc-{{ version }}.tar.gz
-  sha256: f15535c42f4330a454306ddebc79dd5c0acf45b1af7e87ab0cabc0b10e340148
+  sha256: cb06aee969f0639abc88e77554a333803191de95e95259a11929cf878d312fab
 
 build:
   entry_points:
